@@ -46,7 +46,7 @@ module RedmineMessenger
           Messenger.speak(l(:label_messenger_issue_created,
                             project_url: "<#{Messenger.object_url project}|#{ERB::Util.html_escape(project)}>",
                             url: send_messenger_mention_url(project, description),
-                            user: author),
+                            user: Messenger.author_to_mention(author)),
                           channels, url, attachment: attachment, project: project)
         end
 
@@ -88,7 +88,7 @@ module RedmineMessenger
           Messenger.speak(l(:label_messenger_issue_updated,
                             project_url: "<#{Messenger.object_url project}|#{ERB::Util.html_escape(project)}>",
                             url: send_messenger_mention_url(project, current_journal.notes),
-                            user: current_journal.user),
+                            user: Messenger.author_to_mention(current_journal.user)),
                           channels, url, attachment: attachment, project: project)
         end
 

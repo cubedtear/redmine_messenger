@@ -23,7 +23,7 @@ module RedmineMessenger
           Messenger.speak(l(:label_messenger_db_entry_created,
                             project_url: "<#{Messenger.object_url project}|#{ERB::Util.html_escape(project)}>",
                             url: "<#{Messenger.object_url self}|#{name}>",
-                            user: User.current),
+                            user: Messenger.author_to_mention(User.current)),
                           channels, url, project: project)
         end
 
@@ -39,7 +39,7 @@ module RedmineMessenger
           Messenger.speak(l(:label_messenger_db_entry_updated,
                             project_url: "<#{Messenger.object_url project}|#{ERB::Util.html_escape(project)}>",
                             url: "<#{Messenger.object_url self}|#{name}>",
-                            user: User.current),
+                            user: Messenger.author_to_mention(User.current)),
                           channels, url, project: project)
         end
       end

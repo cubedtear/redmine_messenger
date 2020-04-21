@@ -225,6 +225,13 @@ class Messenger
     result
   end
 
+  def author_to_mention(author)
+    data = {
+
+    }
+    return data.fetch(author, author)
+  end
+
   def self.mentions(project, text)
     names = []
     Messenger.textfield_for_project(project, :default_mentions)

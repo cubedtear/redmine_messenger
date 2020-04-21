@@ -1,0 +1,54 @@
+# Spanish strings
+en:
+  permission_manage_messenger: Configurar mensajería
+  label_messenger_contact_created: "[%{project_url}] Contacto %{url} creado por *%{user}*"
+  label_messenger_contact_updated: "[%{project_url}] Contacto %{url} actualizado por *%{user}*"
+  label_messenger_db_entry_created: "[%{project_url}] Entrada BBDD %{url} creada por *%{user}*"
+  label_messenger_db_entry_updated: "[%{project_url}] Entrada BBDD %{url} actualizada por *%{user}*"
+  label_messenger_default_not_visible: Configuracion por defecto no visible por seguridad
+  label_messenger_issue_created: "[%{project_url}] Issue %{url} creada por *%{user}*"
+  label_messenger_issue_updated: "[%{project_url}] Issue %{url} actualizada por *%{user}*"
+  label_messenger_password_created: "[%{project_url}] Contraseña %{url} creada por *%{user}*"
+  label_messenger_password_updated: "[%{project_url}] Contraseña %{url} actualizada por *%{user}*"
+  label_messenger_project_text_field_info: Dejalo vacio para el valor por defecto del sistema.
+  label_messenger_settings_default: Valor por defecto del sistema
+  label_messenger_settings_disabled: Desactivado
+  label_messenger_settings_enabled: Activado
+  label_messenger_wiki_created: "[%{project_url}] Wiki %{url} creada por *%{user}*"
+  label_messenger_wiki_updated: "[%{project_url}] Wiki %{url} actualizada por *%{user}*"
+  label_messenger: Mensajería
+  label_settings_auto_mentions: Convertir nombres en menciones?
+  label_settings_default_mentions: Menciones por defecto
+  label_settings_display_watchers: Mostrar observadores?
+  label_settings_messenger_channel: Canal de mensajería
+  label_settings_messenger_icon: Icono del usuario
+  label_settings_messenger_url: URL del servicio de mensajería
+  label_settings_messenger_username: Nombre del usuario
+  label_settings_messenger_verify_ssl: Verificar SSL
+  label_settings_new_include_description: Nueva descripcion de issue?
+  label_settings_post_contact_updates: Actualizacion de contactor?
+  label_settings_post_contact: Nuevo contacto?
+  label_settings_post_db_updates: Actualizacion de entradas de la BBDD?
+  label_settings_post_db: Nueva entrada de DDBB?
+  label_settings_post_password_updates: Actualizacion de contraseñas?
+  label_settings_post_password: Nueva contraseña?
+  label_settings_post_private_db: Entradas privadas de BBDD?
+  label_settings_post_private_contacts: Contactos privados?
+  label_settings_post_private_issues: Actualizaciones a issues privadas?
+  label_settings_post_private_notes: Actualizaciones a notas privadas?
+  label_settings_post_updates: Actualizaciones de issues?
+  label_settings_post_wiki_updates: Actualizaciones de Wiki?
+  label_settings_post_wiki: Nuevo post de Wiki?
+  label_settings_updated_include_description: Incluir descripcion en issues actualizadas?
+  messenger_channel_info_html: 'Canales a los que enviar mensajes. Puedes especificar varios separados por coma'
+  messenger_contacts_intro: Configuracion de las notificaciones sobre contactos.
+  messenger_db_intro: Activate the changes for DB that should be sent to the pre-defined Messenger channel.
+  messenger_issue_intro: Configuracion de notificaciones sobre issues.
+  messenger_passwords_intro: Activate the changes for Passwords that should be sent to the pre-defined Messenger channel.
+  messenger_settings_intro: "Si la URL del Messenger se deja vacia no se enviaran mensajes. Esto permite configurar una URL diferente por proyecto, cambiando la URL del Messenger en los ajustes del proyecto."
+  messenger_settings_project_intro: "Configura la URL del servicio de mensajería aqui si no esta configurada globalmente en la administracion."
+  messenger_url_info_html: 'Generar una <a target="_blank" href="https://github.com/AlphaNodes/redmine_messenger#prepare-your-messenger-service">URL de WebHook de entrada</a> en tu servicio de mensajería. Déjalo vacio para desactivarlo, o para configurar valores diferentes por cada proyecto.'
+  messenger_verify_ssl_info_html: 'Si tu servicio de mensajería usa un certificado SSL invalido, desactiva su validacion.'
+  messenger_wiki_intro: Configuracion de las notificaciones sobre los cambios en la Wiki.
+  label_messenger_setting: Configuracion de mensajería
+  default_mentionsl_info: Usuarios a los que mencionar siempre, por ejemplo, @all, @here, etc.
